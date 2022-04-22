@@ -1,0 +1,23 @@
+.footer {
+  height: 3vh;
+  width: 100%;
+  background-color: gainsboro;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+@media all and (max-width: 600px) {
+  .footer {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+.footer__title {
+  font-family: "Italic";
+}

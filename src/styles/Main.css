@@ -1,0 +1,15 @@
+h1 {
+  font-family: "Italic";
+  padding: 50px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 20px;
+  height: auto;
+  margin-bottom: 150px !important;
+}

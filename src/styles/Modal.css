@@ -1,0 +1,32 @@
+.modal {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  margin-top: 7vh;
+}
+
+.modal__logo {
+  display: flex;
+  margin: 2px;
+  margin-top: -30pxs;
+  align-items: center;
+}
+
+.modal__photo {
+  border-radius: 50px;
+  width: 10vh;
+  height: 10vh;
+  margin: 5px;
+}
+
+.modal__p {
+  margin: 15px;
+  font-weight: 700;
+}
+
+.modal__description {
+  text-align: left;
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px;
+}

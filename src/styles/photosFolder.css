@@ -1,0 +1,54 @@
+.photosFolder {
+  margin-bottom: 150px;
+}
+
+.photosFolder__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.photosFolder__name {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.photosFolder__photosSection {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.photosFolder__photo {
+  width: 20vh;
+  height: auto;
+  margin: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.photosFolder__button {
+  position: fixed;
+  top: 130px;
+  right: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .photosFolder__button {
+    position: relative;
+    left: 19vh;
+    top: -0.5vh;
+  }
+}
+
+.photosFolder__button:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 1em lightgray, 0 0 1em gray;
+}

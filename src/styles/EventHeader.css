@@ -1,0 +1,83 @@
+.eventHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(177, 175, 199);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .eventHeader {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+  }
+}
+
+.eventHeader__logo {
+  display: flex;
+  margin: 2px;
+  align-items: center;
+}
+
+.eventHeader__folderIcon {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.eventHeader__p {
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.eventHeader__searchBox {
+  margin: 2px;
+  width: 31.5%;
+}
+
+@media all and (max-width: 600px) {
+  .eventHeader__searchBox {
+    display: none;
+  }
+}
+
+.eventHeader__actionOuttons {
+  display: flex;
+  align-items: center;
+}
+
+.eventHeader__optionsButtons {
+  display: flex;
+  align-items: center;
+}
+
+.eventHeader__buttons {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.eventHeader__buttonRed {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+  padding: 5px;
+  color: red;
+}
+
+.eventHeader__links {
+  color: black;
+}
+
+.eventHeader__buttons:hover {
+  transform: scale(1.25);
+  transition: all ease-in-out;
+  transition-duration: 200ms;
+  cursor: pointer;
+}

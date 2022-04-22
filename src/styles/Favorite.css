@@ -1,0 +1,21 @@
+.favorite__main > h1 {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.favorite__photosSection {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorite__photo {
+  width: 20vh;
+  height: auto;
+  margin: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
