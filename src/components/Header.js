@@ -5,7 +5,7 @@ import { Modal } from "../components/Modal";
 import { Link } from "react-router-dom";
 import SearchBox from "./SearchBox";
 import { eventsName } from "../utilities/eventsName";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 
 function Header() {
   const [showModal, setShowModal] = useState(false);
@@ -19,7 +19,7 @@ function Header() {
     <div className='header'>
       <div className='header__logo'>
         <p className='header__p'>
-          <i>just enjoy your life!</i>
+          <i>Just enjoy your life!</i>
         </p>
       </div>
 

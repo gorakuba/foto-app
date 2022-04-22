@@ -3,7 +3,7 @@ import EventHeader from "../components/EventHeader";
 import "../styles/photosFolder.css";
 import { komers2019 } from "../utilities/komers2019";
 import BtnSlider from "./BtnSlider";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 
 function EventFour() {
   const [startScreen, setStartScreen] = useState(true);

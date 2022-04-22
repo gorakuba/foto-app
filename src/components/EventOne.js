@@ -3,8 +3,7 @@ import EventHeader from "../components/EventHeader";
 import "../styles/photosFolder.css";
 import { studniowka2022 } from "../utilities/studniowka2022";
 import BtnSlider from "./BtnSlider";
-import { HeartIcon } from "@heroicons/react/outline";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 
 function EventOne() {
   const [startScreen, setStartScreen] = useState(true);

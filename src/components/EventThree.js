@@ -3,7 +3,7 @@ import EventHeader from "../components/EventHeader";
 import "../styles/photosFolder.css";
 import BtnSlider from "./BtnSlider";
 import { komunia2012 } from "../utilities/komunia2012";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 
 function EventThree() {
   const [startScreen, setStartScreen] = useState(true);

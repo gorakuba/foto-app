@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { StateProvider } from "./components/StateProvider";
-import reducer, { initialState } from "./components/reducer";
+import { StateProvider } from "./helper/StateProvider";
+import reducer, { initialState } from "./helper/reducer";
 
 ReactDOM.render(
   <React.StrictMode>

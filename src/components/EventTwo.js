@@ -3,7 +3,7 @@ import EventHeader from "../components/EventHeader";
 import "../styles/photosFolder.css";
 import BtnSlider from "./BtnSlider";
 import { snaps } from "../utilities/snaps";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 
 function EventTwo() {
   const [startScreen, setStartScreen] = useState(true);

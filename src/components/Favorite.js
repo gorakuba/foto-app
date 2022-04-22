@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Favorite.css";
 import EventHeader from "./EventHeader";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 import { v4 as uuidv4 } from "uuid";
 
 function Favorite() {

@@ -6,7 +6,7 @@ import { Modal } from "../components/Modal";
 import { Link } from "react-router-dom";
 import SearchBox from "./SearchBox";
 import { eventsName } from "../utilities/eventsName";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../helper/StateProvider";
 
 function EventHeader({ eventName }) {
   const [showModal, setShowModal] = useState(false);

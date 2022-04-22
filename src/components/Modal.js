@@ -101,7 +101,7 @@ export const Modal = ({ showModal, setShowModal }) => {
                 <div className='modal__logo'>
                   <img
                     className='modal__photo'
-                    src='https://scontent-waw1-1.xx.fbcdn.net/v/t1.18169-9/19420786_838967116261341_9148319036236575907_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2xUbUS5_3IAAX_lU4Ir&_nc_ht=scontent-waw1-1.xx&oh=00_AT_I0eysr9RGCNJwrjS7n7pI6LYYe2Wkfkk19jjPXk89Tw&oe=620DF1CD'
+                    src='https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/272989992_2114288335395873_8897632361289679046_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=uNGTq-A7gYIAX9O75Sk&_nc_ht=scontent-waw1-1.xx&oh=00_AT9C3mPAl7AyI8Vztv6gWqjgIkhHZi_QeyPPZT0YXbEytA&oe=6267A275'
                     alt=''
                   />
                   <p className='modal__p'>Kuba Góra</p>
